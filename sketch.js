@@ -99,7 +99,9 @@ function draw() {
       
       const avg = (r + g + b) / 3;
 
+        asciiDiv.style("color","rgb("+avg+","+140+",0)");
 
+      
      
       const len = density.length;
       const charIndex = floor(map(avg, y, 255, len, 0));
