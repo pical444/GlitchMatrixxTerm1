@@ -98,8 +98,8 @@ function draw() {
       let b = capture.pixels[pixelIndex + 2];
       
       const avg = (r + g + b) / 3;
-
-        asciiDiv.style("color","rgb("+avg+","+140+",0)");
+     
+        asciiDiv.style("color","rgb("+avg+","+30+",230)");
 
       
      
